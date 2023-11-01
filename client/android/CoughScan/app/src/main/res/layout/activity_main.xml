@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_nav_cough"
+        android:layout_width="384dp"
+        android:layout_height="63dp"
+        android:text="Cough Test"
+        app:layout_constraintStart_toStartOf="@+id/button_nav_symptoms"
+        app:layout_constraintTop_toBottomOf="@+id/button_nav_symptoms" />
+
+    <Button
+        android:id="@+id/button_nav_symptoms"
+        android:layout_width="384dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="76dp"
+        android:text="Input Symptoms"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="133dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/main_desc"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_nav_symptoms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="413dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="44dp"
+        android:background="@color/primary_transparent"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

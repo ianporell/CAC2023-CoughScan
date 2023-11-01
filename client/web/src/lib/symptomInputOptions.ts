@@ -1,0 +1,21 @@
+export const symptomInputOptionLabels = [
+    ["Do you have a breathing problem?", "breathing"],
+    ["Do you have a fever?", "fever"],
+    ["Do you have a dry cough?", "dry-cough"],
+    ["Do you have a sore throat?", "sore-throat"],
+    ["Do you have a running nose?", "running-nose"],
+    ["Are you experiencing any muscle pains?", "pains"],
+    ["Do you have asthma?", "asthma"],
+    ["Do you have chronic lung disease?", "chronic-lung"],
+    ["Are you experiencing a headache?", "headache"],
+    ["Do you have a heart disease?", "heart-disease"],
+    ["Do you have diabetes?", "diabetes"],
+    ["Do you have gastrointestinal problems?", "gastrointestinal"],
+    ["Have you traveled abroad recently?", "abroad-travel"],
+    ["Have you had contact with a known COVID patient recently?","contact-covid"],
+    ["Have you attended a large gathering recently?","large-gathering"],
+    ["Have you visited public exposed places recently?","public-places"],
+    ["Do you have family working in public exposed places?", "family-public"],
+    ["Have you been wearing masks consistently recently?", "masks"],
+    ["Do you have hyper tensions?", "Hyper Tension"]
+];

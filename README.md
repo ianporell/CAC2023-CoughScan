@@ -1,6 +1,8 @@
 # CoughScan
 Android + web app that leverages a two neural network solution to diagnosing COVID-19 from almost any device, anywhere.
 
+Clientside made by Ian Porell, API/Neural Networks made by David Safro
+
 ## Symptoms Test
 User must answer several questions regarding their symptoms and general information about them, this test is good at diagnosing general sickness and sicknesses similar to COVID-19, however it is not perfect as sicknesses that exhibit similar symptoms to COVID-19 will be hard for the neural network to distinguish between. This is where the cough test comes in.
 

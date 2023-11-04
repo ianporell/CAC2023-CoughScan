@@ -9,7 +9,7 @@ from server.ai.symptoms.predict import symptom_predict
 from server.ai.symptoms.model import CovidNet
 from server.ai.cough.prediction import cough_predict
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "*"}})
+CORS(app, resources={r"/*": {"origins": "coughscan.net"}})
 print("STARTED")
 @app.route('/api/upload', methods=['POST'])
 def upload():
